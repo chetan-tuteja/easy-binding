@@ -1,0 +1,3 @@
+include ':EasyBinding'
+include ':app'
+rootProject.name = "ViewBinding"

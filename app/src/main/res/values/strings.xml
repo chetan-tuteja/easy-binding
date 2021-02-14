@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EasyBinding Sample</string>
+    <string name="easy_binding_activity">This activity uses EasyBinding!</string>
+    <string name="load_fragment_btn">Load Fragment</string>
+    <string name="easy_binding_fragment">This fragment uses EasyBinding!</string>
+    <string name="show_toast_button">Show Toast</string>
+</resources>
