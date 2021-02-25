@@ -16,6 +16,8 @@ A Kotlin based library to reduce the Boilerplate code for ViewBinding in Android
 ---
 
 ## Gradle Dependency
+Before we begin, I have written an article on [Medium about this library](https://medium.com/@chetan-tuteja/viewbinding-made-easy-with-the-power-of-kotlin-generics-7a8ddb97ae72) and its workings. Take a look if that interests you. Let's get started then.
+
 Firstly, and foremostly, you will need to enable ViewBinding for project, so do that in your gradle as follows :
 
 ```gradle
@@ -115,14 +117,14 @@ So remember to call the `super` in case you are overiding these methods for your
 override fun onDestroy() {
         // Override stuff here, but remember to always called super.
         super.onDestroy()
-    }
+}
 ```
 
 ```kotlin
 override fun onDestroyView() {
         // Override stuff here, but remember to always called super.
         super.onDestroyView()
-    }
+}
 ```
 
 Besides this all that is needed for the app to run is the `androidx.appcompat:appcompat` dependency which is included in all the projects by default, still, just in case I am mentioning it to avoid any unforseen troubles. 
@@ -141,4 +143,5 @@ The sample app is nothing more than a basic app showing the usage of the library
 * Connect with me on [LinkedIn](https://www.linkedin.com/in/chetan-tuteja) or [GitHub](https://github.com/chetan-tuteja).
 * Star the Github [repository](https://github.com/chetan-tuteja/easy-binding).
 * Follow me for more related content.
+* Read the [Medium Article](https://medium.com/@chetan-tuteja/viewbinding-made-easy-with-the-power-of-kotlin-generics-7a8ddb97ae72) if you'd like.
 * Lastly share the library with your friends!
